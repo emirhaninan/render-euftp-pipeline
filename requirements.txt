@@ -1,0 +1,7 @@
+pandas
+openpyxl
+dash
+nltk
+requests
+re
+transformers
