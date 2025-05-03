@@ -148,7 +148,7 @@ def run():
         return filtered_data.to_dict('records')
 
     port = int(os.environ.get('PORT', 8500))
-    app.run_server(debug=False, host='0.0.0.0', port=port)
+    app.run(debug=False, host='0.0.0.0', port=port)
 
 # Allows run as script OR via main.py import
 if __name__ == '__main__':
